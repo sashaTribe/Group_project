@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/css.css">
   </head>
   <body>
-    <h2>Opinions</h2>
+    <h1>Comment section</h1>
 
   <div class="topnav">
       <a class="active" href="index.html">Home</a>
@@ -16,13 +16,18 @@
       <a href="#about">About us</a>
   </div>
 
-    <script src="java.js"></script>
-    <p>Click on the button at the bottom of this page to open the chat form.</p>
-    <p>Note that the button and the form is fixed - they will always be positioned to the bottom of the browser window.</p>
-    <p>please use this chat to express opinions"</p>
+  <div id="commentcontext">
+    <center>
+    <p>this chat allows users to communicate and share ideas.</p>
+    <p>as creators we value inclusivity, hence the comment section.</p>
+    <p>please use this chat to express your opinions on appropriate topics.</p>
+    </center>
+  </div>
+
     <button class="open-button" onclick="openForm()">Chat</button>
 
   <div class="chat-popup" id="myForm">
+    <center>
       <form action="/action_page.php" class="form-container">
         <h1>Chat</h1>
         <label for="msg"><b>Message</b></label>
@@ -30,6 +35,32 @@
         <button type="submit" class="btn">Send</button>
         <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
       </form>
+    </center>
   </div>
+
+    <div class="container">
+    <img src="images/avatar.PNG" alt="avatar" style="width:100%;">
+    <p>Hello. How are you today?</p>
+    <span class="time-right">11:00</span>
+  </div>
+
+  <div class="container darker">
+    <img src="images/avatar.PNG" alt="avatar" class="right" style="width:100%;">
+    <p>Hey! I'm fine. Thanks for asking!</p>
+    <span class="time-left">11:01</span>
+  </div>
+
+  <div class="container">
+    <img src="images/avatar.PNG" alt="avatar" style="width:100%;">
+    <p>What do you think about atheism?</p>
+    <span class="time-right">11:02</span>
+  </div>
+
+    <div class="container darker">
+      <img src="images/avatar.PNG" alt="avatar" style="width:100%;">
+      <p>I like atheism. What do you think about monogamy?</p>
+      <span class="time-left">11:05</span>
+    </div>
+
   </body>
 </html>
