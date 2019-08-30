@@ -1,0 +1,18 @@
+body {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+#title {
+  color:white;
+  font-family:impact;
+  text-align: center;
+}
+div.top-part{
+  background-image: linear-gradient(to right, pink,purple,blue);
+  height:50%;
+
+}
+
+#coolStuff {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
