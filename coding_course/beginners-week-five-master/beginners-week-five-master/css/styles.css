@@ -1,0 +1,18 @@
+body {
+  padding-top: 5rem;
+  background-color: #9a8c98;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  color:#22223b;
+}
+
+div.carousel-inner {
+    margin-left: :20px;
+    margin-right: 20px;
+
+}

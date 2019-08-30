@@ -16,3 +16,9 @@ div.top-part{
 #coolStuff {
   background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
+
+div.carousel-item {
+  width:200px;
+  height:400px;
+
+}

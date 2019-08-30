@@ -1,0 +1,26 @@
+body{
+  background-color: lightgreen;
+}
+
+h1{
+  color:purple;
+  text-align: center;
+
+}
+
+#p1{
+  color:blue;
+  font-style: italic;
+  text-align: left;
+
+}
+
+#intro-stuff{
+    font-family: cursive;
+    background-color:blue;
+}
+
+div.more-info{
+    font-family:fantasy;
+    background-color:red;
+}
