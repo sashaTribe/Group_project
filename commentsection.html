@@ -4,23 +4,32 @@
     <title>
       Comments Section
     </title>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
   </head>
   <body>
     <h2>Opinions</h2>
+
+  <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About us</a>
+  </div>
+
+    <script src="java.js"></script>
     <p>Click on the button at the bottom of this page to open the chat form.</p>
     <p>Note that the button and the form is fixed - they will always be positioned to the bottom of the browser window.</p>
     <p>please use this chat to express opinions"</p>
     <button class="open-button" onclick="openForm()">Chat</button>
 
-    <div class="chat-popup" id="myForm">
+  <div class="chat-popup" id="myForm">
       <form action="/action_page.php" class="form-container">
         <h1>Chat</h1>
         <label for="msg"><b>Message</b></label>
         <textarea placeholder="Type message.." name="msg" required></textarea>
-
         <button type="submit" class="btn">Send</button>
         <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
       </form>
-    </div>
+  </div>
   </body>
 </html>
